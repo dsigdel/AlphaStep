@@ -1,0 +1,21 @@
+[[Model]]
+    ((Model(constant) + Model(step, prefix='s0_', form='linear')) + Model(step, prefix='s1_', form='linear'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 159
+    # data points      = 3000
+    # variables        = 7
+    chi-square         = 1865.12507
+    reduced chi-square = 0.62316240
+    Akaike info crit   = -1411.85254
+    Bayesian info crit = -1369.80796
+    R-squared          = 0.51523154
+##  Warning: uncertainties could not be estimated:
+[[Variables]]
+    c:             1.01547254 (init = 1.358449)
+    s0_amplitude:  1.03841586 (init = 3.669707)
+    s0_center:     999.562592 (init = 940.3134)
+    s0_sigma:      0.02056230 (init = 37.01234)
+    s1_amplitude:  0.95798727 (init = 4.86251)
+    s1_center:     2004.78596 (init = 1943.148)
+    s1_sigma:      46.2551011 (init = 35.51184)
